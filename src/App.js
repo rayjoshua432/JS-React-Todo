@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+// Import libraries
+import React from 'react'
+import {Routes, Route} from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// Styles
+import './styles/main.css'
+
+import LandingPage from './components/landing'
+import Todo from './components/todo'
+
+const App = () => {
+   return (
+      <div className='main-container'>
+         < Routes>
+            < Route path="/" element = {< LandingPage />} />
+            < Route path="/landing" element = {< LandingPage />} />
+            < Route path="/todo" element = {< Todo />} />
+         </Routes>
+      </div>
+   )
 }
 
-export default App;
+export default App
