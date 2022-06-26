@@ -1,1 +1,23 @@
-/*# sourceMappingURL=landing.css.map */
+.landing-container {
+  width: 300px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.landing-container .landing-main {
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  font-size: 20px;
+  padding: 20px;
+  row-gap: 20px;
+}
+.landing-container .landing-main button {
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}/*# sourceMappingURL=landing.css.map */

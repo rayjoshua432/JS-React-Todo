@@ -6,41 +6,8 @@
 
 .main-container {
    height: 100vh;
-   background-color: bisque;
-
-   // Layout
    display: grid;
    place-content: center;
-
-   .landing-desc {
-      padding: 10px;
-      cursor: default;
-
-      h2 {
-         font-size: 3rem;
-         text-align: center;
-      }
-
-      p {
-         font-size: 1.5rem;
-      }
-
-      button {
-         padding: 10px;
-         margin: 10px;
-         background-color: rgb(23, 22, 22);
-         border: none;
-         border-radius: 10px;
-         width: 40%;
-
-         a {
-            text-decoration: none;
-            font-size: 1.2rem;
-            color: white;
-            width: 100%;
-         }
-      }
-   }
 
    @import './landing.scss';
    @import './todo.scss';

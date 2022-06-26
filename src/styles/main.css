@@ -6,32 +6,29 @@
 
 .main-container {
   height: 100vh;
-  background-color: bisque;
   display: grid;
   place-content: center;
 }
-.main-container .landing-desc {
-  padding: 10px;
-  cursor: default;
+.main-container .landing-container {
+  width: 300px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 10px;
 }
-.main-container .landing-desc h2 {
-  font-size: 3rem;
-  text-align: center;
+.main-container .landing-container .landing-main {
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  font-size: 20px;
+  padding: 20px;
+  row-gap: 20px;
 }
-.main-container .landing-desc p {
-  font-size: 1.5rem;
-}
-.main-container .landing-desc button {
-  padding: 10px;
-  margin: 10px;
-  background-color: rgb(23, 22, 22);
+.main-container .landing-container .landing-main button {
   border: none;
   border-radius: 10px;
-  width: 40%;
-}
-.main-container .landing-desc button a {
-  text-decoration: none;
-  font-size: 1.2rem;
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
   color: white;
-  width: 100%;
+  background-color: black;
 }/*# sourceMappingURL=main.css.map */
