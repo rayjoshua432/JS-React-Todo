@@ -9,23 +9,20 @@ const Todo = () => {
             <input type='text' placeholder='Make a coffee...'></input>
             <button>Add</button>
          </div>
-         <table className='todo-table'>
-            <thead>
-               <tr>
-                  <th>Task</th>
-                  <th>Option</th>
-               </tr>
-            </thead>
-            <tbody>
-               <tr>
-                  <td>Do laundry</td>
-                  <td>
-                     <button>Edit</button>
-                     <button>Delete</button>
-                  </td>
-               </tr>
-            </tbody>         
-         </table>
+         <div className='todo-list'>
+            <div className='todo-header'>
+               <span>Task</span>
+               <span>Options</span>
+            </div>
+            <div className='todos'>
+               <span>Do Laundry</span>
+               <button>Edit</button>
+               <button>Delete</button>
+               <span>Exercise - Walking</span>
+               <button>Edit</button>
+               <button>Delete</button>
+            </div>
+         </div>
       </div>
    )
 }
