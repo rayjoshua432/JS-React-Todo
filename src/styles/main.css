@@ -74,4 +74,7 @@
   display: grid;
   grid-gap: 20px 20px;
   grid-template-columns: 2fr 1fr 1fr;
+}
+.main-container .todo-container .todo-list .err {
+  color: red;
 }/*# sourceMappingURL=main.css.map */

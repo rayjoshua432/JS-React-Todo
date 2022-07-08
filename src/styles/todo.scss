@@ -45,5 +45,9 @@
          grid-gap: 20px 20px;
          grid-template-columns: 2fr 1fr 1fr;
       }
+
+      .err {
+         color: red;
+      }
    }
 }
